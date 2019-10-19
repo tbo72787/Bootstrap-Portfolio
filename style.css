@@ -48,11 +48,6 @@ nav {
   margin-bottom: 5%;
 }
 
-.card-title {
-  border-bottom: 50px;
-  border-color: #dddddd;
-}
-
 .card-body {
   border-color: #dddddd;
 }
@@ -76,4 +71,23 @@ nav {
 
 #navbarNav {
   float: right;
+}
+
+.port-card {
+  width: 200px;
+  height: 200px;
+}
+
+.port-over {
+  position: absolute;
+  background-color: #4aaaa5;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  right: 0px;
+  left: 0px;
+  margin:0;
+  bottom: 10%;
+  padding: 10px;
+  color: #ffffff;
 }
