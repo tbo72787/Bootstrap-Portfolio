@@ -30,11 +30,14 @@ nav {
 }
 
 .navbar {
+  position: sticky;
   background-color: #ffffff;
   border-bottom: 1px solid #dddddd;
   padding-bottom: 0;
   width: 100%;
   overflow: hidden;
+  top: 0;
+  z-index: 2;
 }
 
 .card {
