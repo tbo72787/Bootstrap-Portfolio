@@ -1,11 +1,14 @@
 body {
+  background-image: url(../Bootstrap-Portfolio/assets/ripples/ripples.png);
   margin: 0;
+  padding: 0;
 }
 
 .navbar-brand {
   background-color: #4aaaa5;
   color: #ffffff;
   padding: 1%;
+  z-index: 0;
 }
 
 .head-font {
@@ -20,17 +23,54 @@ body {
   color: #777777;
 }
 
-.rt-mar {
-  margin-right: 0;
-  margin-left: 75%;
+nav {
+  width: 960px;
+  margin: auto; 
+  padding: auto;
 }
 
 .navbar {
-  position: absolute;
-  width: 960px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
-nav {
+.card {
+  width: 960px;
+  margin: auto;
+  padding: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card-title {
+  border-bottom: 50px;
+  border-color: #dddddd;
+}
+
+.card-body {
+  border-color: #dddddd;
+}
+
+.card-img {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-right: 15px;
+}
+
+.card-text {
+  display: inline-block;
+}
+
+.header-content {
+  width: 960px;
+  margin: auto;
   padding: 0;
-  margin: 0;
+}
+
+#navbarNav {
+  float: right;
 }
